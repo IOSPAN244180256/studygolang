@@ -1,0 +1,7 @@
+//protoc.exe -I=proto的输入目录 –java_out=java类输出目录 proto的输入目录包括proto文件
+
+protoc --proto_path=E:\Project\go\src\grpcservice --go_out=E:\Project\go\src\grpcservice E:\Project\go\src\grpcservice\book.proto
+
+protoc --proto_path=E:\Project\go\src\grpctest\proto\test --go_out=E:\Project\go\src\grpctest\proto\test E:\Project\go\src\grpctest\proto\test\test.proto
+
+protoc --plugin=protoc-gen-go=.\protoc-gen-go.exe --proto_path=E:\Project\go\src\grpctest\proto\test --go_out=E:\Project\go\src\grpctest\proto\test E:\Project\go\src\grpctest\proto\test\test.proto
