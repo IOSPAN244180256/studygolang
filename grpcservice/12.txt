@@ -1,1 +1,0 @@
-protoc --proto_path=E:\Project\go\src\grpcservice --go_out=E:\Project\go\src\grpcservice E:\Project\go\src\grpcservice\book.proto
